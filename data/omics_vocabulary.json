@@ -1,0 +1,79 @@
+[
+  {
+    "term": "Transcriptomics",
+    "definition": "The study of the complete set of RNA transcripts produced by the genome under specific circumstances or in a specific cell, including mRNA, rRNA, tRNA, and other non-coding RNA.",
+    "field": "Omics - Transcriptomics",
+    "context": "Transcriptomics can supplement genomics with its ability to accurately measure gene expression within a live organism, as demonstrated in early breast cancer detection.",
+    "usage_example": "We employed RNA-seq transcriptomics to identify differential gene expression patterns in response to thermal stress.",
+    "synonyms": ["RNA expression profiling", "Transcriptome analysis"],
+    "related_terms": ["Gene expression", "mRNA sequencing", "RNA-seq"],
+    "academic_register": "formal",
+    "difficulty": "advanced"
+  },
+  {
+    "term": "Proteomics",
+    "definition": "The large-scale study of all expressed proteins (the proteome) in a cell, tissue, or organism at a given time, including their structure, function, and interactions.",
+    "field": "Omics - Proteomics",
+    "context": "Proteomics provides a more in-depth picture of cellular activity than genomics, as environmental stimuli impact protein expression levels dynamically over time.",
+    "usage_example": "Functional proteomics revealed novel protein-protein interactions critical to the stress response pathway.",
+    "synonyms": ["Protein profiling", "Proteome analysis"],
+    "related_terms": ["Expression proteomics", "Structural proteomics", "Functional proteomics", "Mass spectrometry"],
+    "academic_register": "formal",
+    "difficulty": "advanced"
+  },
+  {
+    "term": "CRISPR-Cas9",
+    "definition": "A revolutionary genome editing technology utilizing Clustered Regularly Interspaced Short Palindromic Repeats and Cas9 endonuclease to introduce precise, targeted modifications to DNA sequences.",
+    "field": "Genetic Engineering",
+    "context": "CRISPR-Cas9 is currently the simplest, most versatile, and precise method of genetic manipulation, causing significant advances in therapeutic genome editing.",
+    "usage_example": "The researchers employed CRISPR-Cas9 to generate a knockout of the target gene in murine embryonic stem cells.",
+    "synonyms": ["Cas9-mediated gene editing", "CRISPR genome editing"],
+    "related_terms": ["sgRNA", "PAM sequence", "HDR", "NHEJ", "Off-target effects"],
+    "academic_register": "formal",
+    "difficulty": "advanced"
+  },
+  {
+    "term": "Homology-Directed Repair (HDR)",
+    "definition": "A mechanism for repairing double-strand DNA breaks using a homologous DNA sequence as a template, allowing for precise insertion or correction of genetic sequences during gene editing.",
+    "field": "Genetic Engineering",
+    "context": "HDR enables knock-in mutations when a donor template with homology arms flanking the desired sequence is provided alongside the Cas9 nuclease.",
+    "usage_example": "To introduce the point mutation, we supplied a single-stranded oligonucleotide donor template to promote HDR over NHEJ.",
+    "synonyms": ["Homologous recombination repair", "HR"],
+    "related_terms": ["NHEJ", "Double-strand break", "Donor template", "Homology arms"],
+    "academic_register": "formal",
+    "difficulty": "expert"
+  },
+  {
+    "term": "Metabolomics",
+    "definition": "The comprehensive analysis of all small-molecule metabolites present in a biological sample, providing insights into metabolic states and biochemical pathways.",
+    "field": "Omics - Metabolomics",
+    "context": "Metabolomics analyzes how metabolites are processed within organisms, offering an encompassing view of the molecular phenotype in health and disease.",
+    "usage_example": "Untargeted metabolomics revealed significant perturbations in lipid metabolism and amino acid profiles in diabetic patients.",
+    "synonyms": ["Metabolite profiling", "Metabolome analysis"],
+    "related_terms": ["Mass spectrometry", "NMR spectroscopy", "Lipidomics", "Metabolic flux"],
+    "academic_register": "formal",
+    "difficulty": "advanced"
+  },
+  {
+    "term": "Prime Editing",
+    "definition": "A versatile genome editing method combining a Cas9 nickase with reverse transcriptase to enable all 12 base-to-base conversions, insertions, and deletions without requiring double-strand breaks or donor DNA templates.",
+    "field": "Genetic Engineering",
+    "context": "Prime editing represents a significant advancement over base editing and traditional CRISPR-Cas9, offering greater precision with reduced off-target effects.",
+    "usage_example": "We utilized prime editing to introduce a therapeutically relevant 5-bp insertion into the HEXA gene without detectable off-target mutations.",
+    "synonyms": ["PE", "Search-and-replace genome editing"],
+    "related_terms": ["Base editing", "pegRNA", "Cas9 nickase", "Reverse transcriptase"],
+    "academic_register": "formal",
+    "difficulty": "expert"
+  },
+  {
+    "term": "Metagenomics",
+    "definition": "The study of genetic material recovered directly from environmental samples, enabling analysis of microbial community composition and function without cultivation.",
+    "field": "Omics - Genomics",
+    "context": "Metagenomics has revolutionized microbial ecology by allowing researchers to access the vast majority of microorganisms that cannot be cultured in vitro.",
+    "usage_example": "Shotgun metagenomic sequencing revealed a previously unknown diversity of antibiotic resistance genes in the soil microbiome.",
+    "synonyms": ["Environmental genomics", "Community genomics"],
+    "related_terms": ["16S rRNA sequencing", "Microbiome", "Operational taxonomic unit", "Amplicon sequencing"],
+    "academic_register": "formal",
+    "difficulty": "advanced"
+  }
+]
