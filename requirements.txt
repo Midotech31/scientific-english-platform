@@ -1,7 +1,8 @@
-streamlit>=1.35.0
-spacy>=3.7.0
-pandas>=2.0.0
-textblob>=0.17.1
-numpy>=1.24.0
-# This line is critical for cloud deployment:
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz#egg=en_core_web_sm
+streamlit
+# Use a slightly older, binary-friendly version of spacy
+spacy==3.5.0
+pandas
+textblob
+numpy
+# The model link remains the same
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz#egg=en_core_web_sm
