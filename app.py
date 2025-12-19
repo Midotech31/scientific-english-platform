@@ -17,7 +17,7 @@ col1, col2 = st.columns([1, 6])
 with col1:
     logo_path = Path("assets/logo.png")
     if logo_path.exists():
-        st.image(str(logo_path), width=200)
+        st.image(str(logo_path), width=400)
         
 with col2:
     st.title("OmicsLingua")
