@@ -68,7 +68,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     logo = Path("assets/MyEnglishApp Logo.png")
     if logo.exists():
-        st.image(str(logo), width=200)
+        st.image(str(logo), width=450)
 
 with col2:
     st.title("OmicsLingua")
