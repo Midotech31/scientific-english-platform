@@ -5,12 +5,10 @@ def load_css():
     """Injects custom CSS for a modern, academic aesthetic."""
     st.markdown("""
     <style>
-        /* Main app container */
         .main {
             background-color: #f8f9fa;
         }
         
-        /* Term cards */
         .term-card {
             background: white;
             padding: 20px;
@@ -38,24 +36,23 @@ def load_css():
             border-radius: 12px;
             font-size: 12px;
             font-weight: 500;
-        }
-        
-        .badge-molecular-biology {
-            background-color: #6366f1;
             color: white;
         }
         
-        .badge-beginner {
-            background-color: #10b981;
-            color: white;
-        }
+        .badge-molecular-biology { background-color: #6366f1; }
+        .badge-genomics { background-color: #ec4899; }
+        .badge-epigenomics { background-color: #8b5cf6; }
+        .badge-transcriptomics { background-color: #f59e0b; }
+        .badge-proteomics { background-color: #10b981; }
+        .badge-clinical-genomics { background-color: #ef4444; }
+        .badge-genetic-engineering { background-color: #06b6d4; }
+        .badge-bioinformatics { background-color: #3b82f6; }
+        .badge-statistics { background-color: #84cc16; }
         
-        .badge-genomics {
-            background-color: #ec4899;
-            color: white;
-        }
+        .badge-beginner { background-color: #10b981; }
+        .badge-intermediate { background-color: #f59e0b; }
+        .badge-advanced { background-color: #ef4444; }
         
-        /* Definition section */
         .definition-text {
             font-size: 16px;
             line-height: 1.6;
@@ -63,7 +60,6 @@ def load_css():
             margin-bottom: 15px;
         }
         
-        /* Usage example box */
         .usage-box {
             background-color: #f0f9ff;
             padding: 15px;
@@ -76,54 +72,18 @@ def load_css():
             color: #1e40af;
         }
         
-        /* Synonyms section */
         .synonyms-text {
             background-color: #fffbeb;
             padding: 10px;
             border-radius: 6px;
             margin-top: 10px;
         }
-        
-        /* Header styling */
-        .header-container {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .logo-img {
-            width: 60px;
-            height: 60px;
-            border-radius: 10px;
-        }
     </style>
-    """, unsafe_allow_html=True)
-
-
-def render_logo():
-    """Renders the application logo if it exists."""
-    logo_path = Path("assets/logo.png")
-    if logo_path.exists():
-        st.image(str(logo_path), width=100)
-    else:
-        st.markdown("### 🧬 OmicsLingua")
-
-
-def card(title, content, context=None):
-    """Renders a UI card with optional context."""
-    st.markdown(f"""
-    <div class="term-card">
-        <div class="term-title">{title}</div>
-        {f'<p style="color: #6b7280; font-size: 14px;">{context}</p>' if context else ''}
-        <div class="definition-text">{content}</div>
-    </div>
     """, unsafe_allow_html=True)
 
 
 def display_term_card(term_dict):
     """Displays a formatted term card with all information."""
-    # Extract term information
     term = term_dict.get('term', 'N/A')
     definition = term_dict.get('definition', 'No definition available')
     usage = term_dict.get('usage_example', '')
@@ -131,11 +91,10 @@ def display_term_card(term_dict):
     category = term_dict.get('category', 'General')
     level = term_dict.get('level', 'Intermediate')
     
-    # Create badge classes based on category
-    category_class = category.lower().replace(' ', '-')
+    # Create safe CSS class names
+    category_class = category.lower().replace(' ', '-').replace('/', '-')
     level_class = level.lower()
     
-    # Build the HTML for the term card
     html_content = f"""
     <div class="term-card">
         <div class="term-title">{term}</div>
@@ -148,7 +107,6 @@ def display_term_card(term_dict):
         </div>
     """
     
-    # Add usage example if available
     if usage and usage.strip():
         html_content += f"""
         <div class="usage-box">
@@ -157,7 +115,6 @@ def display_term_card(term_dict):
         </div>
         """
     
-    # Add synonyms if available
     if synonyms and synonyms.strip():
         html_content += f"""
         <div class="synonyms-text">
@@ -167,5 +124,5 @@ def display_term_card(term_dict):
     
     html_content += "</div>"
     
-    # Render with unsafe_allow_html=True to display HTML properly
+    # THIS IS THE KEY: unsafe_allow_html=True
     st.markdown(html_content, unsafe_allow_html=True)
