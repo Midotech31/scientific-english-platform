@@ -1,5 +1,9 @@
+# Data extraction artifacts
+CSV/
+tools/extracted/
+
+# OS / accidental files
+main
 __pycache__/
 *.pyc
 .DS_Store
-.env
-venv/
