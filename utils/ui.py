@@ -1,30 +1,69 @@
 ﻿"""
-UI Components for OmicsLingua
-Author: Dr. MERZOUG Mohamed (ESSBO)
+UI utilities and custom CSS
 """
 
 import streamlit as st
+from datetime import datetime
 
 def load_css():
+    """Load custom CSS"""
     st.markdown("""
     <style>
-    .term-card {
-        background: white;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        margin-bottom: 20px;
-        border-left: 5px solid #4CAF50;
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .main .block-container {
+            padding: 1rem;
+        }
+        h1 { font-size: 1.5rem; }
+    }
+    
+    /* Accessibility */
+    button:focus {
+        outline: 2px solid #FF4B4B;
+        outline-offset: 2px;
+    }
+    
+    /* Custom card styling */
+    .vocab-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        color: white;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    /* Smooth animations */
+    .element-container {
+        transition: all 0.3s ease;
+    }
+    
+    /* Better readability */
+    .stMarkdown {
+        line-height: 1.6;
     }
     </style>
     """, unsafe_allow_html=True)
 
-def term_card(term):
-    st.markdown(f"""
-    <div class="term-card">
-        <h4>{term['term']}</h4>
-        <p><strong>Definition:</strong> {term['definition']}</p>
-        <p><strong>Domain:</strong> {term['field']} | <strong>Level:</strong> {term['difficulty']}</p>
-        <p><em>{term.get('usage_example','')}</em></p>
-    </div>
-    """, unsafe_allow_html=True)
+def render_sidebar_profile():
+    """Render user profile in sidebar"""
+    with st.sidebar.expander("👤 Your Learning Profile", expanded=False):
+        col1, col2 = st.columns(2)
+        
+        progress = st.session_state.user_progress
+        
+        with col1:
+            st.metric("Words", len(progress['vocab_mastered']))
+            st.metric("Articles", len(progress['reading_completed']))
+        
+        with col2:
+            st.metric("Streak", f"{progress['streak_days']} days")
+            st.metric("Sessions", progress['writing_sessions'])
+        
+        # Weekly goal
+        weekly_goal = 50
+        current_week = len(progress['vocab_mastered'])
+        progress_pct = min(current_week / weekly_goal, 1.0)
+        
+        st.progress(progress_pct)
+        st.caption(f"Weekly goal: {current_week}/{weekly_goal} words")
