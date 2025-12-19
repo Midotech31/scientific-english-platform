@@ -70,10 +70,6 @@ with col1:
     if logo.exists():
         st.image(str(logo), width=450)
 
-with col2:
-    st.title("OmicsLingua")
-    st.caption("🧬 The Reference Platform for Scientific English in Omics & Genetic Engineering")
-
 st.divider()
 
 # ---------------- SIDEBAR ----------------
