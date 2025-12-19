@@ -68,7 +68,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     logo = Path("assets/MyEnglishApp Logo.png")
     if logo.exists():
-        st.image(str(logo), width=450)
+        st.image(str(logo), width=600)
 
 st.divider()
 
