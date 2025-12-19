@@ -18,8 +18,6 @@ with col1:
     logo_path = Path("assets/logo.png")
     if logo_path.exists():
         st.image(str(logo_path), width=200)
-    else:
-        st.markdown("### 🧬")
         
 with col2:
     st.title("OmicsLingua")
@@ -29,64 +27,53 @@ st.markdown("---")
 
 @st.cache_data
 def load_glossary():
-    """Load glossary from JSON or CSV files."""
-    # Try JSON first (in data folder)
+    """Load glossary from JSON file."""
     json_path = Path('data/omics_vocabulary.json')
-    if json_path.exists():
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            terms_list = []
-            for term_key, term_data in data.items():
-                term_dict = {
-                    'term': term_data.get('term', term_key),
-                    'definition': term_data.get('definition', ''),
-                    'category': term_data.get('category', 'General'),
-                    'level': term_data.get('level', 'Intermediate'),
-                    'usage_example': term_data.get('usage_example', ''),
-                    'synonyms': term_data.get('synonyms', '')
-                }
-                terms_list.append(term_dict)
-            df = pd.DataFrame(terms_list)
-            st.sidebar.success(f"✅ Loaded {len(df)} terms from JSON")
-            return df
-        except Exception as e:
-            st.sidebar.error(f"❌ JSON Error: {str(e)}")
     
-    # Try CSV files
-    csv_files = ['batch1_institutional_glossary.csv', 'batch2_institutional_glossary.csv', 'batch3_institutional_glossary.csv']
-    all_terms = []
-    for file in csv_files:
-        if Path(file).exists():
-            try:
-                df = pd.read_csv(file)
-                all_terms.append(df)
-                st.sidebar.success(f"✅ Loaded {file}")
-            except Exception as e:
-                st.sidebar.warning(f"⚠️ {file}: {str(e)}")
+    if not json_path.exists():
+        st.error("❌ File 'data/omics_vocabulary.json' not found!")
+        return pd.DataFrame(columns=['term', 'definition', 'category', 'level', 'usage_example', 'synonyms'])
     
-    if all_terms:
-        combined = pd.concat(all_terms, ignore_index=True)
-        return combined
-    
-    st.error("❌ No data files found! Please upload data/omics_vocabulary.json or CSV files.")
-    return pd.DataFrame(columns=['term', 'definition', 'category', 'level', 'usage_example', 'synonyms'])
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        terms_list = []
+        for item in data:
+            # Convert synonyms list to comma-separated string
+            synonyms_str = ', '.join(item.get('synonyms', [])) if item.get('synonyms') else ''
+            
+            term_dict = {
+                'term': item.get('term', 'N/A'),
+                'definition': item.get('definition', ''),
+                'category': item.get('field', 'General'),  # field → category
+                'level': item.get('difficulty', 'Intermediate'),  # difficulty → level
+                'usage_example': item.get('usage_example', ''),
+                'synonyms': synonyms_str
+            }
+            terms_list.append(term_dict)
+        
+        df = pd.DataFrame(terms_list)
+        st.sidebar.success(f"✅ Loaded {len(df)} terms from JSON")
+        return df
+        
+    except Exception as e:
+        st.sidebar.error(f"❌ JSON Error: {str(e)}")
+        return pd.DataFrame(columns=['term', 'definition', 'category', 'level', 'usage_example', 'synonyms'])
 
 glossary_df = load_glossary()
 
 st.sidebar.header("🔍 Filter Options")
 search_term = st.sidebar.text_input("Search terms:", placeholder="Type to search...")
 
-if len(glossary_df) > 0 and 'category' in glossary_df.columns:
+if len(glossary_df) > 0:
     categories = ['All'] + sorted(glossary_df['category'].dropna().unique().tolist())
-else:
-    categories = ['All']
-selected_category = st.sidebar.selectbox("Category:", categories)
-
-if len(glossary_df) > 0 and 'level' in glossary_df.columns:
     levels = ['All'] + sorted(glossary_df['level'].dropna().unique().tolist())
 else:
+    categories = ['All']
     levels = ['All']
+
+selected_category = st.sidebar.selectbox("Category:", categories)
 selected_level = st.sidebar.selectbox("Difficulty Level:", levels)
 
 filtered_df = glossary_df.copy()
@@ -109,7 +96,7 @@ if len(filtered_df) > 0:
     for idx, row in filtered_df.iterrows():
         display_term_card(row.to_dict())
 else:
-    st.info("No terms found matching your criteria. Try adjusting your filters.")
+    st.info("No terms found. Try adjusting your filters.")
 
 st.markdown("---")
 st.markdown("""
