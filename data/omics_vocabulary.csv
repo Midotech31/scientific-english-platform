@@ -1,0 +1,49 @@
+﻿term,definition,category,difficulty,example,phonetic,etymology,syllables,stress
+Genome,The complete set of genetic material in an organism,Genomics,beginner,The human genome contains approximately 3 billion base pairs,ˈdʒiːnəʊm,From gene + -ome (complete set),ge-nome,first
+Transcriptome,The complete set of RNA transcripts produced by the genome,Transcriptomics,intermediate,RNA-seq is used to analyze the transcriptome,trænˈskrɪptəʊm,From transcript + -ome,tran-scrip-tome,second
+Proteome,The entire set of proteins expressed by a genome,Proteomics,intermediate,Mass spectrometry helps identify proteins in the proteome,ˈprəʊtiːəʊm,From protein + -ome,pro-te-ome,first
+Metabolome,The complete set of small-molecule metabolites,Metabolomics,advanced,The metabolome reflects the physiological state of a cell,məˈtæbələʊm,From metabolite + -ome,me-tab-o-lome,second
+Metagenome,Genetic material recovered from environmental samples,Metagenomics,advanced,Shotgun sequencing is used for metagenome analysis,ˈmetəˌdʒiːnəʊm,From meta- (beyond) + genome,meta-ge-nome,first
+Epigenome,The complete set of epigenetic modifications,Epigenomics,advanced,The epigenome regulates gene expression,ˌepɪˈdʒiːnəʊm,From epi- (upon) + genome,e-pi-ge-nome,third
+Sequencing,The process of determining nucleotide order in DNA,Genomics,beginner,Next-generation sequencing revolutionized genomics,ˈsiːkwənsɪŋ,From sequence + -ing,se-quen-cing,first
+Annotation,Identifying and labeling features in a genome,Genomics,intermediate,Genome annotation predicts gene locations,ˌænəˈteɪʃən,From Latin annotare,an-no-ta-tion,third
+Expression,Process by which genetic information synthesizes proteins,Transcriptomics,beginner,Gene expression varies between cell types,ɪkˈsprɛʃən,From Latin exprimere,ex-pres-sion,second
+Assembly,Reconstructing a genome from sequence reads,Genomics,intermediate,De novo assembly constructs genomes,əˈsɛmbli,From Latin assimulare,as-sem-bly,second
+Alignment,Arranging sequences to identify similarity regions,Genomics,intermediate,Sequence alignment reveals evolutionary relationships,əˈlaɪnmənt,From align + -ment,a-lign-ment,second
+Phylogeny,Evolutionary history and relationships among organisms,Genomics,intermediate,Phylogenetic trees visualize evolution,faɪˈlɒdʒəni,From Greek phylon + genesis,phy-lo-ge-ny,second
+Contig,A contiguous DNA sequence assembled from reads,Genomics,intermediate,Assembly software generates contigs,ˈkɒntɪɡ,Contraction of contiguous,con-tig,first
+Amplicon,DNA or RNA amplified through PCR,Genomics,intermediate,16S rRNA amplicon sequencing identifies bacteria,ˈæmplɪkɒn,From amplify + -on,am-pli-con,first
+Coverage,Average number of reads representing a nucleotide,Genomics,intermediate,30× coverage means each base sequenced 30 times,ˈkʌvərɪdʒ,From cover + -age,cov-er-age,first
+Variant,A genomic locus that differs between individuals,Genomics,intermediate,Single nucleotide variants are most common,ˈvɛəriənt,From Latin variare,var-i-ant,first
+Allele,Alternative forms of a gene at the same locus,Genomics,beginner,Humans inherit one allele from each parent,əˈliːl,From Greek allos (other),al-lele,second
+Genotype,The genetic makeup of an organism,Genomics,beginner,Genotyping reveals genetic variations,ˈdʒiːnətaɪp,From gene + type,ge-no-type,first
+Phenotype,The observable characteristics of an organism,Genomics,beginner,Phenotype results from genotype-environment interactions,ˈfiːnətaɪp,From Greek phainein + type,phe-no-type,first
+Codon,A three-nucleotide sequence encoding an amino acid,Genomics,beginner,The start codon AUG codes for methionine,ˈkəʊdɒn,From code + -on,co-don,first
+Exon,A coding sequence in a gene that is expressed,Genomics,beginner,Exons are spliced together to form mature mRNA,ˈɛksɒn,From expressed region,ex-on,first
+Intron,A non-coding sequence removed during RNA splicing,Genomics,beginner,Introns are transcribed but not translated,ˈɪntrɒn,From intragenic region,in-tron,first
+Promoter,A DNA region where transcription is initiated,Genomics,intermediate,Promoters bind RNA polymerase,prəˈməʊtə,From promote + -er,pro-mo-ter,second
+Plasmid,A small circular DNA molecule in bacteria,Genomics,beginner,Plasmids are used as vectors in genetic engineering,ˈplæzmɪd,From plasma + -id,plas-mid,first
+Primer,A short DNA sequence initiating replication,Genomics,beginner,PCR primers flank the target DNA region,ˈpraɪmə,From prime + -er,prim-er,first
+Polymerase,An enzyme that synthesizes polynucleotide chains,Genomics,intermediate,DNA polymerase replicates the genome,pəˈlɪməreɪz,From polymer + -ase,po-ly-mer-ase,second
+Methylation,The addition of methyl groups to DNA,Epigenomics,intermediate,DNA methylation regulates gene expression,ˌmɛθɪˈleɪʃən,From methyl + -ation,meth-yl-a-tion,third
+Chromatin,The complex of DNA and proteins in nucleus,Epigenomics,intermediate,Chromatin structure affects gene accessibility,ˈkrəʊmətɪn,From Greek chroma,chro-ma-tin,first
+Histone,A protein around which DNA wraps,Epigenomics,intermediate,Histone modifications regulate chromatin structure,ˈhɪstəʊn,From Greek histos,his-tone,first
+Transcription,The synthesis of RNA from a DNA template,Transcriptomics,beginner,Transcription is the first step of gene expression,trænˈskrɪpʃən,From transcribe + -ion,tran-scrip-tion,second
+Translation,The synthesis of protein from mRNA,Proteomics,beginner,Translation occurs at ribosomes,trænzˈleɪʃən,From translate + -ion,trans-la-tion,second
+Ribosome,A cellular structure that synthesizes proteins,Proteomics,beginner,Ribosomes read mRNA codons to build proteins,ˈraɪbəsəʊm,From ribose + -some,ri-bo-some,first
+MicroRNA,Small regulatory RNA molecules,Transcriptomics,intermediate,MicroRNAs regulate gene expression,ˈmaɪkrəʊ ɑːr en eɪ,From micro + RNA,mi-cro R-N-A,first
+Splicing,The removal of introns from pre-mRNA,Transcriptomics,intermediate,Alternative splicing generates protein diversity,ˈsplaɪsɪŋ,From splice + -ing,splic-ing,first
+Metabolism,The sum of chemical reactions in an organism,Metabolomics,beginner,Metabolism includes anabolism and catabolism,məˈtæbəlɪzəm,From Greek metabole,me-tab-o-lism,second
+Enzyme,A biological catalyst,Metabolomics,beginner,Enzymes accelerate biochemical reactions,ˈɛnzaɪm,From Greek en + zyme,en-zyme,first
+Substrate,The molecule upon which an enzyme acts,Metabolomics,beginner,Substrate specificity determines enzyme function,ˈsʌbstreɪt,From Latin substratum,sub-strate,first
+Cofactor,A non-protein molecule required for enzyme activity,Metabolomics,intermediate,Metal ions often serve as cofactors,ˈkəʊfæktə,From co- + factor,co-fac-tor,first
+Peptide,A short chain of amino acids,Proteomics,beginner,Peptides are building blocks of proteins,ˈpɛptaɪd,From Greek peptos,pep-tide,first
+Domain,A distinct functional unit within a protein,Proteomics,intermediate,Protein domains can function independently,dəʊˈmeɪn,From Latin dominium,do-main,second
+Phosphorylation,Addition of phosphate groups to molecules,Proteomics,intermediate,Protein phosphorylation regulates signaling,ˌfɒsfərɪˈleɪʃən,From phosphoryl + -ation,phos-phor-yl-a-tion,fourth
+Antibody,A protein that recognizes and binds antigens,Proteomics,beginner,Antibodies are used in many proteomics methods,ˈæntɪbɒdi,From anti- + body,an-ti-bod-y,first
+Chromatography,Separation technique based on molecular properties,Proteomics,intermediate,Liquid chromatography separates complex mixtures,ˌkrəʊməˈtɒɡrəfi,From Greek chroma + -graphy,chro-ma-tog-ra-phy,third
+Electrophoresis,Separation of molecules in an electric field,Proteomics,intermediate,Gel electrophoresis separates DNA by size,ɪˌlɛktrəʊfəˈriːsɪs,From electro- + phoresis,e-lec-tro-pho-re-sis,fourth
+Normalization,Adjustment for technical variation,Genomics,intermediate,Expression normalization enables sample comparison,ˌnɔːməlaɪˈzeɪʃən,From normal + -ization,nor-mal-i-za-tion,fourth
+Replication,Repetition of experiments,Genomics,beginner,Biological replication confirms reproducibility,ˌrɛplɪˈkeɪʃən,From replicate + -ion,rep-li-ca-tion,third
+Validation,Confirmation of results using independent methods,Genomics,intermediate,qPCR validates RNA-seq findings,ˌvælɪˈdeɪʃən,From valid + -ation,val-i-da-tion,third
+Contamination,The presence of unwanted material in samples,Genomics,intermediate,DNA contamination can compromise results,kənˌtæmɪˈneɪʃən,From contaminate + -ion,con-tam-i-na-tion,fourth
