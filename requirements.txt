@@ -1,9 +1,7 @@
 streamlit
-# Use newer spacy that supports Python 3.12+ binaries
 spacy>=3.7.0
 pandas
 textblob
-# Use modern numpy to avoid the distutils error
-numpy>=1.26.0
-# Use the newer model that matches spacy 3.7+
+# Pin numpy to <2.0.0 to prevent thinc/spacy crash
+numpy<2.0.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz#egg=en_core_web_sm
