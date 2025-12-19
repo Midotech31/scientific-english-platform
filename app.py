@@ -28,7 +28,7 @@ load_css()
 # ---------------- HEADER ----------------
 logo = Path("assets/MyEnglishApp Logo.png")
 if logo.exists():
-    st.image(str(logo), use_column_width=True)
+    st.image(str(logo), width=180)
 
 st.title("OmicsLingua")
 st.caption("The Reference Platform for Scientific English in Omics & Genetic Engineering")
