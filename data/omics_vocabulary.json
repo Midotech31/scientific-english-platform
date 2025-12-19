@@ -7,7 +7,8 @@
     "synonyms": [
       "deoxyribonucleic acid"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "RNA (Ribonucleic Acid)",
@@ -17,7 +18,8 @@
     "synonyms": [
       "ribonucleic acid"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Gene",
@@ -27,7 +29,8 @@
     "synonyms": [
       "locus"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Genome",
@@ -35,7 +38,8 @@
     "field": "Genomics",
     "usage_example": "Whole-genome sequencing surveyed variation across the genome.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "RNA sequencing (RNA-seq)",
@@ -45,7 +49,8 @@
     "synonyms": [
       "transcriptome sequencing"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Proteome",
@@ -53,7 +58,8 @@
     "field": "Proteomics",
     "usage_example": "Proteome profiling identified altered signaling pathways.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Pathogenic Variant",
@@ -61,7 +67,8 @@
     "field": "Clinical Genomics",
     "usage_example": "The variant was classified as pathogenic according to ACMG criteria.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Variant of Uncertain Significance",
@@ -71,7 +78,8 @@
     "synonyms": [
       "VUS"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "CRISPR-Cas9",
@@ -79,7 +87,8 @@
     "field": "Genetic Engineering",
     "usage_example": "CRISPR-Cas9 was used to disrupt the target gene.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "DNA (Deoxyribonucleic Acid) (clinical/research context)",
@@ -89,7 +98,8 @@
     "synonyms": [
       "deoxyribonucleic acid"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "RNA (Ribonucleic Acid) (clinical/research context)",
@@ -99,7 +109,8 @@
     "synonyms": [
       "ribonucleic acid"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Gene (clinical/research context)",
@@ -109,7 +120,8 @@
     "synonyms": [
       "locus"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Genome (clinical/research context)",
@@ -117,7 +129,8 @@
     "field": "Genomics",
     "usage_example": "Whole-genome sequencing surveyed variation across the genome.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "RNA sequencing (RNA-seq) (clinical/research context)",
@@ -127,7 +140,8 @@
     "synonyms": [
       "transcriptome sequencing"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Proteome (clinical/research context)",
@@ -135,7 +149,8 @@
     "field": "Proteomics",
     "usage_example": "Proteome profiling identified altered signaling pathways.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Pathogenic Variant (clinical/research context)",
@@ -143,7 +158,8 @@
     "field": "Clinical Genomics",
     "usage_example": "The variant was classified as pathogenic according to ACMG criteria.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Variant of Uncertain Significance (clinical/research context)",
@@ -153,7 +169,8 @@
     "synonyms": [
       "VUS"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "CRISPR-Cas9 (clinical/research context)",
@@ -161,7 +178,8 @@
     "field": "Genetic Engineering",
     "usage_example": "CRISPR-Cas9 was used to disrupt the target gene.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Epigenetics",
@@ -169,7 +187,8 @@
     "field": "Epigenomics",
     "usage_example": "Epigenetic regulation contributes to cell-type–specific gene expression.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "DNA Methylation",
@@ -177,7 +196,8 @@
     "field": "Epigenomics",
     "usage_example": "Aberrant DNA methylation was observed in tumor samples.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Histone Modification",
@@ -185,7 +205,8 @@
     "field": "Epigenomics",
     "usage_example": "Histone acetylation correlated with transcriptional activation.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "ATAC-seq",
@@ -193,7 +214,8 @@
     "field": "Epigenomics",
     "usage_example": "ATAC-seq revealed regulatory elements active in immune cells.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "ChIP-seq",
@@ -201,7 +223,8 @@
     "field": "Epigenomics",
     "usage_example": "ChIP-seq identified transcription factor binding sites.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Single-cell Omics",
@@ -209,7 +232,8 @@
     "field": "Single-cell Omics",
     "usage_example": "Single-cell omics resolved cellular heterogeneity within tumors.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Single-cell RNA sequencing",
@@ -219,7 +243,8 @@
     "synonyms": [
       "scRNA-seq"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Unique Molecular Identifier",
@@ -229,7 +254,8 @@
     "synonyms": [
       "UMI"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Spatial Transcriptomics",
@@ -237,7 +263,8 @@
     "field": "Spatial Omics",
     "usage_example": "Spatial transcriptomics localized gene expression to tumor margins.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Metabolomics",
@@ -245,7 +272,8 @@
     "field": "Metabolomics",
     "usage_example": "Metabolomics revealed alterations in energy metabolism.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Lipidomics",
@@ -253,7 +281,8 @@
     "field": "Lipidomics",
     "usage_example": "Lipidomics detected changes in membrane lipid composition.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Glycomics",
@@ -261,7 +290,8 @@
     "field": "Glycomics",
     "usage_example": "Glycomics revealed altered glycosylation patterns in cancer.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Metagenomics",
@@ -269,7 +299,8 @@
     "field": "Metagenomics",
     "usage_example": "Metagenomics characterized the gut microbial community.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Microbiome",
@@ -277,7 +308,8 @@
     "field": "Microbiome",
     "usage_example": "Disruption of the gut microbiome was associated with disease.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Functional Genomics",
@@ -285,7 +317,8 @@
     "field": "Functional Genomics",
     "usage_example": "Functional genomics linked gene perturbations to phenotypes.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Epigenetics (omics context)",
@@ -293,7 +326,8 @@
     "field": "Epigenomics",
     "usage_example": "Epigenetic regulation contributes to cell-type–specific gene expression.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "DNA Methylation (omics context)",
@@ -301,7 +335,8 @@
     "field": "Epigenomics",
     "usage_example": "Aberrant DNA methylation was observed in tumor samples.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Histone Modification (omics context)",
@@ -309,7 +344,8 @@
     "field": "Epigenomics",
     "usage_example": "Histone acetylation correlated with transcriptional activation.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "ATAC-seq (omics context)",
@@ -317,7 +353,8 @@
     "field": "Epigenomics",
     "usage_example": "ATAC-seq revealed regulatory elements active in immune cells.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "ChIP-seq (omics context)",
@@ -325,7 +362,8 @@
     "field": "Epigenomics",
     "usage_example": "ChIP-seq identified transcription factor binding sites.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Single-cell Omics (omics context)",
@@ -333,7 +371,8 @@
     "field": "Single-cell Omics",
     "usage_example": "Single-cell omics resolved cellular heterogeneity within tumors.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Single-cell RNA sequencing (omics context)",
@@ -343,7 +382,8 @@
     "synonyms": [
       "scRNA-seq"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Unique Molecular Identifier (omics context)",
@@ -353,7 +393,8 @@
     "synonyms": [
       "UMI"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Spatial Transcriptomics (omics context)",
@@ -361,7 +402,8 @@
     "field": "Spatial Omics",
     "usage_example": "Spatial transcriptomics localized gene expression to tumor margins.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Metabolomics (omics context)",
@@ -369,7 +411,8 @@
     "field": "Metabolomics",
     "usage_example": "Metabolomics revealed alterations in energy metabolism.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Lipidomics (omics context)",
@@ -377,7 +420,8 @@
     "field": "Lipidomics",
     "usage_example": "Lipidomics detected changes in membrane lipid composition.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Glycomics (omics context)",
@@ -385,7 +429,8 @@
     "field": "Glycomics",
     "usage_example": "Glycomics revealed altered glycosylation patterns in cancer.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Metagenomics (omics context)",
@@ -393,7 +438,8 @@
     "field": "Metagenomics",
     "usage_example": "Metagenomics characterized the gut microbial community.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Microbiome (omics context)",
@@ -401,7 +447,8 @@
     "field": "Microbiome",
     "usage_example": "Disruption of the gut microbiome was associated with disease.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Functional Genomics (omics context)",
@@ -409,7 +456,8 @@
     "field": "Functional Genomics",
     "usage_example": "Functional genomics linked gene perturbations to phenotypes.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Bioinformatics",
@@ -417,7 +465,8 @@
     "field": "Bioinformatics",
     "usage_example": "Bioinformatics pipelines processed sequencing data at scale.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "FASTQ",
@@ -425,7 +474,8 @@
     "field": "Bioinformatics / File Format",
     "usage_example": "Raw sequencing reads were provided in FASTQ format.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "BAM",
@@ -435,7 +485,8 @@
     "synonyms": [
       "SAM"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "VCF",
@@ -443,7 +494,8 @@
     "field": "Bioinformatics / File Format",
     "usage_example": "Variants were reported in VCF files.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Read Alignment",
@@ -453,7 +505,8 @@
     "synonyms": [
       "mapping"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Variant Calling",
@@ -461,7 +514,8 @@
     "field": "Bioinformatics",
     "usage_example": "Variant calling identified single nucleotide variants.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Normalization",
@@ -469,7 +523,8 @@
     "field": "Bioinformatics",
     "usage_example": "Normalization corrected for differences in library size.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Batch Effect",
@@ -477,7 +532,8 @@
     "field": "Bioinformatics",
     "usage_example": "Batch effects obscured biological signals.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "False Discovery Rate",
@@ -487,7 +543,8 @@
     "synonyms": [
       "FDR"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Systems Biology",
@@ -495,7 +552,8 @@
     "field": "Systems Biology",
     "usage_example": "Systems biology integrated transcriptomic and proteomic data.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Protein-Protein Interaction",
@@ -505,7 +563,8 @@
     "synonyms": [
       "PPI"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Network Analysis",
@@ -513,7 +572,8 @@
     "field": "Systems Biology",
     "usage_example": "Network analysis identified hub genes.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Multi-omics Integration",
@@ -521,7 +581,8 @@
     "field": "Systems Biology",
     "usage_example": "Multi-omics integration revealed pathway-level dysregulation.",
     "synonyms": [],
-    "difficulty": "Advanced"
+    "difficulty": "Advanced",
+    "provenance": "imported_csv"
   },
   {
     "term": "HGVS Nomenclature",
@@ -529,7 +590,8 @@
     "field": "Clinical Genomics",
     "usage_example": "Variants were reported using HGVS nomenclature.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "ClinVar",
@@ -537,7 +599,8 @@
     "field": "Clinical Genomics",
     "usage_example": "The variant interpretation was reviewed in ClinVar.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Secondary Findings",
@@ -547,7 +610,8 @@
     "synonyms": [
       "incidental findings"
     ],
-    "difficulty": "Advanced"
+    "difficulty": "Advanced",
+    "provenance": "imported_csv"
   },
   {
     "term": "Workflow Management System",
@@ -555,7 +619,8 @@
     "field": "Bioinformatics",
     "usage_example": "The pipeline was implemented using a workflow management system.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "Containerization",
@@ -563,7 +628,8 @@
     "field": "Bioinformatics",
     "usage_example": "Containerization enabled reproducible execution across clusters.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv"
   },
   {
     "term": "FAIR Principles",
@@ -571,7 +637,8 @@
     "field": "Data Management",
     "usage_example": "Datasets were curated according to FAIR principles.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv"
   },
   {
     "term": "Bioinformatics (analysis context)",
@@ -579,7 +646,8 @@
     "field": "Bioinformatics",
     "usage_example": "Bioinformatics pipelines processed sequencing data at scale.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "FASTQ (analysis context)",
@@ -587,7 +655,8 @@
     "field": "Bioinformatics / File Format",
     "usage_example": "Raw sequencing reads were provided in FASTQ format.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "BAM (analysis context)",
@@ -597,7 +666,8 @@
     "synonyms": [
       "SAM"
     ],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "VCF (analysis context)",
@@ -605,7 +675,8 @@
     "field": "Bioinformatics / File Format",
     "usage_example": "Variants were reported in VCF files.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Read Alignment (analysis context)",
@@ -615,7 +686,8 @@
     "synonyms": [
       "mapping"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Variant Calling (analysis context)",
@@ -623,7 +695,8 @@
     "field": "Bioinformatics",
     "usage_example": "Variant calling identified single nucleotide variants.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Normalization (analysis context)",
@@ -631,7 +704,8 @@
     "field": "Bioinformatics",
     "usage_example": "Normalization corrected for differences in library size.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Batch Effect (analysis context)",
@@ -639,7 +713,8 @@
     "field": "Bioinformatics",
     "usage_example": "Batch effects obscured biological signals.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "False Discovery Rate (analysis context)",
@@ -649,7 +724,8 @@
     "synonyms": [
       "FDR"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Systems Biology (analysis context)",
@@ -657,7 +733,8 @@
     "field": "Systems Biology",
     "usage_example": "Systems biology integrated transcriptomic and proteomic data.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Protein-Protein Interaction (analysis context)",
@@ -667,7 +744,8 @@
     "synonyms": [
       "PPI"
     ],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Network Analysis (analysis context)",
@@ -675,7 +753,8 @@
     "field": "Systems Biology",
     "usage_example": "Network analysis identified hub genes.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Multi-omics Integration (analysis context)",
@@ -683,7 +762,8 @@
     "field": "Systems Biology",
     "usage_example": "Multi-omics integration revealed pathway-level dysregulation.",
     "synonyms": [],
-    "difficulty": "Advanced"
+    "difficulty": "Advanced",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "HGVS Nomenclature (analysis context)",
@@ -691,7 +771,8 @@
     "field": "Clinical Genomics",
     "usage_example": "Variants were reported using HGVS nomenclature.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "ClinVar (analysis context)",
@@ -699,7 +780,8 @@
     "field": "Clinical Genomics",
     "usage_example": "The variant interpretation was reviewed in ClinVar.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Secondary Findings (analysis context)",
@@ -709,7 +791,8 @@
     "synonyms": [
       "incidental findings"
     ],
-    "difficulty": "Advanced"
+    "difficulty": "Advanced",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Workflow Management System (analysis context)",
@@ -717,7 +800,8 @@
     "field": "Bioinformatics",
     "usage_example": "The pipeline was implemented using a workflow management system.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "Containerization (analysis context)",
@@ -725,7 +809,8 @@
     "field": "Bioinformatics",
     "usage_example": "Containerization enabled reproducible execution across clusters.",
     "synonyms": [],
-    "difficulty": "Intermediate"
+    "difficulty": "Intermediate",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   },
   {
     "term": "FAIR Principles (analysis context)",
@@ -733,6 +818,7 @@
     "field": "Data Management",
     "usage_example": "Datasets were curated according to FAIR principles.",
     "synonyms": [],
-    "difficulty": "Beginner"
+    "difficulty": "Beginner",
+    "provenance": "imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv,imported_csv"
   }
 ]
