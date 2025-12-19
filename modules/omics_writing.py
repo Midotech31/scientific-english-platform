@@ -27,7 +27,7 @@ def render_omics_writing_assistant(nlp):
 
     # -------------------- Text input --------------------
     user_text = st.text_area(
-        "Enter your scientific text (abstract, methods, results):",
+        label="Scientific Text Input",
         height=250,
         placeholder="The cells were harvested and RNA was extracted using standard protocols..."
     )
@@ -148,13 +148,24 @@ def render_omics_writing_assistant(nlp):
 
             with col_orig:
                 st.markdown("**Original Text**")
-                st.text_area("", user_text, height=200, disabled=True)
+                st.text_area(
+                    label="Original Text",
+                    value=user_text,
+                    height=200,
+                    disabled=True,
+                    key="writing_orig_text"
+                )
 
             with col_improved:
                 st.markdown("**Suggested Revision**")
-                st.text_area("", improved_text, height=200)
+                st.text_area(
+                    label="Improved Text",
+                    value=improved_text,
+                    height=200,
+                    key="writing_improved_text"
+                )
 
-            st.caption("Future versions can integrate OpenAI / Claude for semantic rewrites.")
+            st.caption("Future versions can integrate OpenAI or Claude for semantic rewrites.")
 
     elif analyze_button:
         st.warning("⚠️ Please enter text to analyze.")
