@@ -1,6 +1,7 @@
 ﻿import streamlit as st
 import pandas as pd
-from utils.ui import load_css, render_logo, display_term_card
+import json
+from utils.ui import load_css, display_term_card
 from pathlib import Path
 
 # Page configuration
@@ -15,36 +16,50 @@ st.set_page_config(
 load_css()
 
 # Header with logo
-col1, col2 = st.columns([1, 8])
+col1, col2 = st.columns([1, 6])
 with col1:
-    render_logo()
+    logo_path = Path("assets/logo.png")
+    if logo_path.exists():
+        st.image(str(logo_path), width=150)
+    else:
+        st.markdown("### 🧬")
+        
 with col2:
     st.title("OmicsLingua")
     st.markdown("**The Reference Platform for Scientific English in Omics & Genetic Engineering**")
 
 st.markdown("---")
 
-# Load glossary data
+# Load glossary data from JSON
 @st.cache_data
 def load_glossary():
-    """Load all glossary CSV files."""
-    glossary_files = [
-        "batch1_institutional_glossary.csv",
-        "batch2_institutional_glossary.csv",
-        "batch3_institutional_glossary.csv"
-    ]
-    
-    all_terms = []
-    for file in glossary_files:
-        file_path = Path(file)
-        if file_path.exists():
-            df = pd.read_csv(file_path)
-            all_terms.append(df)
-    
-    if all_terms:
-        return pd.concat(all_terms, ignore_index=True)
-    else:
-        # Return empty dataframe with expected columns
+    """Load glossary from JSON file."""
+    try:
+        with open('omics_vocabulary.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Convert JSON to DataFrame
+        terms_list = []
+        for term_key, term_data in data.items():
+            term_dict = {
+                'term': term_data.get('term', term_key),
+                'definition': term_data.get('definition', ''),
+                'category': term_data.get('category', 'General'),
+                'level': term_data.get('level', 'Intermediate'),
+                'usage_example': term_data.get('usage_example', ''),
+                'synonyms': term_data.get('synonyms', '')
+            }
+            terms_list.append(term_dict)
+        
+        df = pd.DataFrame(terms_list)
+        st.sidebar.success(f"✅ Loaded {len(df)} terms from omics_vocabulary.json")
+        return df
+        
+    except FileNotFoundError:
+        st.error("❌ File 'omics_vocabulary.json' not found in repository!")
+        return pd.DataFrame(columns=['term', 'definition', 'category', 'level', 'usage_example', 'synonyms'])
+    except Exception as e:
+        st.error(f"❌ Error loading vocabulary: {str(e)}")
         return pd.DataFrame(columns=['term', 'definition', 'category', 'level', 'usage_example', 'synonyms'])
 
 # Load data
@@ -57,29 +72,35 @@ st.sidebar.header("🔍 Filter Options")
 search_term = st.sidebar.text_input("Search terms:", placeholder="Type to search...")
 
 # Category filter
-categories = ['All'] + sorted(glossary_df['category'].unique().tolist()) if 'category' in glossary_df.columns else ['All']
+if len(glossary_df) > 0 and 'category' in glossary_df.columns:
+    categories = ['All'] + sorted(glossary_df['category'].dropna().unique().tolist())
+else:
+    categories = ['All']
 selected_category = st.sidebar.selectbox("Category:", categories)
 
 # Level filter
-levels = ['All'] + sorted(glossary_df['level'].unique().tolist()) if 'level' in glossary_df.columns else ['All']
+if len(glossary_df) > 0 and 'level' in glossary_df.columns:
+    levels = ['All'] + sorted(glossary_df['level'].dropna().unique().tolist())
+else:
+    levels = ['All']
 selected_level = st.sidebar.selectbox("Difficulty Level:", levels)
 
 # Filter glossary based on selections
 filtered_df = glossary_df.copy()
 
 # Apply search filter
-if search_term:
+if search_term and len(filtered_df) > 0:
     filtered_df = filtered_df[
         filtered_df['term'].str.contains(search_term, case=False, na=False) |
         filtered_df['definition'].str.contains(search_term, case=False, na=False)
     ]
 
 # Apply category filter
-if selected_category != 'All':
+if selected_category != 'All' and len(filtered_df) > 0:
     filtered_df = filtered_df[filtered_df['category'] == selected_category]
 
 # Apply level filter
-if selected_level != 'All':
+if selected_level != 'All' and len(filtered_df) > 0:
     filtered_df = filtered_df[filtered_df['level'] == selected_level]
 
 # Display results
