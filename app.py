@@ -68,7 +68,11 @@ col1, col2 = st.columns([1, 3])
 with col1:
     logo = Path("assets/MyEnglishApp Logo.png")
     if logo.exists():
-        st.image(str(logo), width=500)
+        st.image(str(logo), width=200)
+
+with col2:
+    st.title("OmicsLingua")
+    st.caption("🧬 The Reference Platform for Scientific English in Omics & Genetic Engineering")
 
 st.divider()
 
